@@ -1,0 +1,29 @@
+.infoBox-container {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #d4d4d4;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.infoBox-text {
+    color: #3b3b3f;
+    margin: 0;
+}
+
+.infoBox-icon {
+    color: #3b3b3f;
+    margin: 0;
+    cursor: pointer;
+}
+
+.infoBox-label {
+    color: #3b3b3f;
+    margin: 0;
+    margin-bottom: 4px;
+    text-align: start;
+    font-weight: 600;
+}

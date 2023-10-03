@@ -1,0 +1,27 @@
+.saveBox-label {
+    color: #3b3b3f;
+    text-align: start;
+    font-weight: 600;
+
+}
+
+.saveBox-text {
+    color: #3b3b3f;
+    list-style: none;
+    padding: 4px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.saveBox-text:last-child {
+    border-bottom: none;
+}
+
+.saveBox-list {
+    margin: 0;
+    padding: 0;
+    max-height: 300px;
+}

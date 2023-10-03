@@ -1,0 +1,53 @@
+.list-elem {
+    color: #3b3b3f;
+}
+
+.list-row {
+    border-bottom: 1px solid #eaeaea;
+    padding: 4px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+}
+
+.list-row:last-child {
+    border-bottom: none;
+}
+
+.autocomplete-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    width: 100%;
+
+}
+
+.autocomplete-input {
+    padding: 8px 12px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 8px;
+    color: #3b3b3f;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.autocomplete-input:focus {
+    border: blueviolet;
+}
+
+.suggestions-container {
+    width: calc(100% - 8px);
+    list-style: none;
+    text-align: start;
+    box-sizing: border-box;
+    border: 1px solid #e7e6e6;
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    padding: 12px;
+    margin-top: 0;
+}
